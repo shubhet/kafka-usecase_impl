@@ -26,7 +26,7 @@ public class ReplayService {
     private String bootstrapServers;
 
     public List<String> readAllFromBeginning() {
-        List<String> cachedMessages = locationService.getAllMessages();
+        List<String> cachedMessages = locationService.getAllSessionMessages();
         if (!cachedMessages.isEmpty()) {
             return cachedMessages;
         }
