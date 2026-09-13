@@ -1,1 +1,5 @@
 curl --location --request POST 'http://localhost:8080/ola/updateLocation'
+
+curl --location 'http://localhost:8081/cab/location'
+
+curl --location 'http://localhost:8081/cab/loadWholeSessionData'
